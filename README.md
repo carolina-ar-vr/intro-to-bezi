@@ -1,5 +1,5 @@
 # Intro to XR Design with Bezi Workshop
-A Carolina AR/VR workshop that will teach you how to design XR experiences in Bezi – created by Ashley Neall.
+A Carolina AR/VR workshop that will teach you how to design XR experiences in Bezi – created by Ashley Neall, Stratton, and Arryn O'Brien.
 
 ## An Introduction
 This workshop introduces students to extended reality (XR) design within **Bezi** – a web-based 3D UI/UX design tool used to plan out mobile, AR, VR, and MR experiences for XR various platforms. Since this workshop is only one hour long, **you _must_ ENTIRELY complete the pre-workshop setup below BEFORE THE WORKSHOP BEGINS**!
@@ -28,7 +28,7 @@ Please make sure to complete the following steps ***before* the workshop begins*
 3. Change the cube to the following measurements:
   * Scale – X = 0.12, Y = 0.14, Z = 1.71
   * Box - W = 1.44m, H = 0.68m, D = 0.44m
-4. Now your cube should appear to be the size of a iano key
+4. Now your cube should appear to be the size of a piano key
 5. Place the rescaled cube (i.e. now a rectangular prism) in front of the user (i.e. XR Rig camera):
   *  Position – X = 0m, Y = 1m, Z = -0.25m
 5. Rename the 'Box' to **Key**
@@ -41,17 +41,17 @@ Please make sure to complete the following steps ***before* the workshop begins*
 5. Click on **Base State** and drag to connect an arrow pointing toward **Press State**
 6. Click on the transition arrow _(pointing toward Press State)_ and change 'Pointer down' to **direct touch inside**
 7. Click on **Press State** and drag to connect an arrow pointing toward **Base State** and change 'Pointer down' to **direct touch outside**
+8. Make sure that the only object added to both transitions is the one called "self", thus signifying that it is the key that should be touched to activate the change
 
 ### Add Changes to the State Machine
 1. Click the **Key** object and open the State Machine again
 2. Select **Press State** and change the following:
-  * Position – X = 0m, **Y = 0.97m**, Z = -0.25m
-  * Material – _change the color to something other than red (e.g. pink)_
+  * Position – Lower the Y position slightly
+  * Material – Change the color to something other than white, like red or pink
 
-
-TODO: add more instructions
-
+(TODO: Finish instructions)
 
 
 ### Contact Information
 * Ashley Neall – aneall@unc.edu
+* Arryn O'Brien – arrynco@unc.edu
