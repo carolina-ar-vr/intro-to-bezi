@@ -15,6 +15,43 @@ Please make sure to complete the following steps ***before* the workshop begins*
 5. (Optional) Read this guide to [design visionOS apps](https://www.bezi.com/apple-vision-pro-guide) with Bezi.
 6. Bring a **laptop** _(and preferably a mouse)_, and your excitement!
 
+## Workshop Steps
+### Setup XR Scene
+1. Login to your Bezi account
+2. Navigate to Drafts and click **New File**
+4. Under New Scene, select **AR Ready Scene**
+5. Double-click 'Body Rig 1' and rename it to **XR Rig**
+
+### Create a Piano Key
+1. In the top navigation bar, click the **Objects** tab
+2. Select **Box**, then drag your cursor into the 3D viewport and click multiple times to create the initial dimensions of the box (i.e. cube)
+3. Change the cube to the following measurements:
+  * Scale – X = 0.12, Y = 0.14, Z = 1.71
+  * Box - W = 1.44m, H = 0.68m, D = 0.44m
+4. Now your cube should appear to be the size of a iano key
+5. Place the rescaled cube (i.e. now a rectangular prism) in front of the user (i.e. XR Rig camera):
+  *  Position – X = 0m, Y = 1m, Z = -0.25m
+5. Rename the 'Box' to **Key**
+
+### Set up the State Machine
+1. Click on the piano key (**Key**)
+2. In the bottom naviagtion bar, click the **State Machine** tab
+   * _You will see a **Start** and a default **Base State**_
+3. Click **New State** to add a new state, then rename it from 'State 1' to **Press State**
+5. Click on **Base State** and drag to connect an arrow pointing toward **Press State**
+6. Click on the transition arrow _(pointing toward Press State)_ and change 'Pointer down' to **direct touch inside**
+7. Click on **Press State** and drag to connect an arrow pointing toward **Base State** and change 'Pointer down' to **direct touch outside**
+
+### Add Changes to the State Machine
+1. Click the **Key** object and open the State Machine again
+2. Select **Press State** and change the following:
+  * Position – X = 0m, **Y = 0.97m**, Z = -0.25m
+  * Material – _change the color to something other than red (e.g. pink)_
+
+
+TODO: add more instructions
+
+
+
 ### Contact Information
 * Ashley Neall – aneall@unc.edu
-
